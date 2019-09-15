@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Mauer
+comment1.params=pXposition\ pYposition
+comment1.target=Mauer(int,\ int)
+comment2.params=
+comment2.target=void\ positioning()
+numComments=3

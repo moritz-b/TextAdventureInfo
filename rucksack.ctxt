@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=rucksack
+comment1.params=
+comment1.target=rucksack()
+comment2.params=
+comment2.target=void\ ansehen()
+comment3.params=pName
+comment3.target=void\ weglegen(java.lang.String)
+comment4.params=pName
+comment4.target=void\ tauschen(java.lang.String)
+comment5.params=pName
+comment5.target=void\ tauschen2(java.lang.String)
+numComments=6
