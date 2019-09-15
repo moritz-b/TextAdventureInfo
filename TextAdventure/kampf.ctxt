@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=kampf
+comment1.params=i
+comment1.target=void\ kampfBeginn(int)
+comment2.params=
+comment2.target=void\ kaempfen()
+comment3.params=
+comment3.target=void\ battlestep()
+comment4.params=pName
+comment4.target=void\ schaden(java.lang.String)
+comment5.params=
+comment5.target=void\ damagestep()
+numComments=6

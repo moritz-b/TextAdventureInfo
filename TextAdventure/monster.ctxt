@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=monster
+comment1.params=pLeben\ pSchaden\ pKlasse\ pAusweichen\ pVerfehlen\ x\ y
+comment1.target=monster(int,\ int,\ java.lang.String,\ double,\ double,\ int,\ int)
+numComments=2
