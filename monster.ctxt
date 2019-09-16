@@ -1,5 +1,7 @@
 #BlueJ class context
 comment0.target=monster
-comment1.params=pLeben\ pSchaden\ pKlasse\ pAusweichen\ pVerfehlen\ x\ y
-comment1.target=monster(int,\ int,\ java.lang.String,\ double,\ double,\ int,\ int)
-numComments=2
+comment1.params=pLeben\ pSchaden\ pKlasse\ pAusweichen\ pVerfehlen\ x\ y\ pMoves
+comment1.target=monster(int,\ int,\ java.lang.String,\ double,\ double,\ int,\ int,\ double)
+comment2.params=
+comment2.target=void\ move()
+numComments=3

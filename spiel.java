@@ -1,32 +1,14 @@
 import java.util.Scanner;
-import java.util.LinkedList;
-import java.io.FileWriter;
-import java.io.FileReader;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.Date;
-
 
 public class spiel
 {    
-    private CommandWords commands;  //Liste die alle zulässigen Command-wörter enthält
-    private Scanner reader;   //
+    private CommandWords commands;  // holds all valid command words
+    private Scanner reader;   // source of command input
     public static menschen held;
-    String fileName = "spielstand.txt";
-    String line = null;
-    private String[] fileContent = new String[3];
-    private char[][] pos = new char[30][30]; //Der zweidimensionale Array wird hier initialisert
+    private char[][] pos = new char[10][10]; //Der zweidimensionale Array wird hier initialisert
     private boolean gameRunning = true;
     //Ein Array in dem alle Monster gespeichert sind
-    public static LinkedList<monster> monsterList = new LinkedList();
-    public Date startDate = new Date();
-    public long oldTime = 0;
+    public static monster[] monsterArray = new monster[1];
     /**
      * Create a parser to read from the terminal window.
      */
@@ -58,12 +40,7 @@ public class spiel
                 System.out.println("Storyline und Auftrag an den Spieler mit dem Arzt");
                 held = new arzt();
             }
-        if (txtAvailable()) {
-            useText();
-        } else {
-            System.out.println("Keine Speicherdatei gefunden");
-        }
-        rucksack rucksack = new rucksack();   
+           
         while (gameRunning == true) {
             Command command = parser.getCommand();
             System.out.println(command.getCommandWord());
@@ -75,114 +52,15 @@ public class spiel
     private void useCommand(String input, menschen held) {
         if (input.equals("map")) {
             printMapPlayer(held);
-        } else if (input.equals("beenden")) {
-            writetxt(held.getPos('x'), held.getPos('y'));
-            System.out.println("Programm beendet, Spielstand gespeichert. \nBis zum nächsten Mal");
-            System.exit(1000);
-        } else if (input.equals("spielzeit")) {
-            System.out.println("Du spielst seit " + spielzeit()/3600000 + " Stunde(n), " + (spielzeit()/60000)%60 + " Minute(n) und " + (spielzeit()/1000)%60 + " Sekunde(n)");;
         }
     }
     
     public void testWelt() {
-        fill(7, 29, 0, 4, '_');
-        fill(8, 29, 5, 7, '_');
-        fill(9, 29, 8, 8, '_');
-        fill(8, 29, 9, 10, '_');
-        fill(10, 29, 11, 14, '_');
-        fill(8, 15, 15, 16, '_');
-        fill(20, 29, 15, 16, '_');
-        fill(21, 29, 17, 18, '_');
-        fill(7, 14, 17, 18, '_');
-        fill(7, 14, 19, 24, '_');
-        fill(22, 29, 19, 23, '_');
-        fill(21, 29, 24, 24, '_');
-        fill(20, 29, 25, 25, '_');
-        fill(7, 16, 25, 25, '_');
-        fill(7, 29, 26, 26, '_');
-        fill(9, 29, 27, 27, '_');
-        fill(0, 7, 10, 10, '≈');
-        fill(0, 9, 11, 13, '≈');
-        build(29, 0, '▢');
-        fill(17, 18, 20, 20, '▢');
-        build(20, 0, 'O');
-        build(16, 2, 'O');
-        build(19, 3, 'O');
-        build(10, 4, 'O');
-        build(20, 5, 'O');
-        build(16, 6, 'O');
-        build(17, 7, 'O');
-        build(20, 8, 'O');
-        build(13, 9, 'O');
-        build(14, 10, 'O');
-        build(17, 11, 'O');
-        build(25, 12, 'O');
-        build(19, 13, 'O');
-    }
-    
-    private void writetxt(int x, int y) {
-        try {
-            FileWriter fileWriter =
-            new FileWriter(fileName);
-
-            BufferedWriter bufferedWriter =
-            new BufferedWriter(fileWriter);
-            
-            bufferedWriter.write("x: " + x);
-            bufferedWriter.newLine();
-            bufferedWriter.write("y: " + y);
-            bufferedWriter.newLine();
-            bufferedWriter.write(Long.toString(spielzeit()));
-            
-            bufferedWriter.close();
-        }
-        catch(IOException ex) {
-            System.out.println(
-                "Fehler beim beschreiben der Datei '"
-                + fileName + "'. Error: " + ex);
-        }
-    }
-    
-    private boolean txtAvailable() {
-        try {
-            
-            
-            FileReader fileReader = 
-                new FileReader(fileName);
-            
-            BufferedReader bufferedReader = 
-                new BufferedReader(fileReader);
-            int i = 0;
-            while((line = bufferedReader.readLine()) != null) {
-                fileContent[i] = line;
-                i++;
-            }
-            bufferedReader.close();  
-            return true;
-        }
-        catch(FileNotFoundException ex) {
-            return false;                
-        }
-        catch(IOException ex) {
-            return false;
-        }
-    }
-    
-    private void useText() {
-        try {
-            int x = Integer.parseInt(fileContent[0].replaceAll("[x: ]",""));
-            int y = Integer.parseInt(fileContent[1].replaceAll("[y: ]",""));
-            oldTime = Long.parseLong(fileContent[2].replaceAll("[y: ]",""));
-            System.out.println("Spieldatei erfolgreich ausgelesen: x = " + x + ", y = " + y + ", time = " + oldTime);
-            held.setPos(x, y);
-        } catch(Exception ex) {
-            System.out.println("Error bei setzen der Position" + ex);
-        }
-    }
-    
-    private long spielzeit() {
-        Date checkDate = new Date();
-        return (checkDate.getTime() - startDate.getTime() + oldTime);
+        fill(5, 5, 2, 6, 'x');
+        fill(5, 9, 6, 6, 'x');
+        build(7, 1, 'g');
+        build(7, 5, 's');
+        build(2, 9, 't');
     }
     
     private void printMap() {
@@ -196,7 +74,7 @@ public class spiel
     }
     
     public void printMapPlayer(menschen Held) {
-        build(Held.getPos('x'), Held.getPos('y'), 'P');
+        build(Held.getPos('x'), Held.getPos('y'), 'o');
         for (int i = 0; i < pos[0].length; i++) {
             for (int j = 0; j < pos.length; j++) {
                 System.out.print(pos(j,i) + "|");
@@ -229,6 +107,6 @@ public class spiel
     
     public void monsterSpawn()
     {
-        monsterList.add(new berserkerZombie(2, 0));
+        monsterArray[0] = new berserkerZombie(1, 0);
     }
 }
