@@ -3,14 +3,16 @@ public class menschen extends lebewesen
     protected fernkampf aktuelleWaffe1;
     protected nahkampf aktuelleWaffe2;
     protected faehigkeiten aktuelleFaehigkeit;
-    protected double gewicht;
-    public menschen(fernkampf pAktuelleWaffe1, nahkampf pAktuelleWaffe2, faehigkeiten pFaehigkeit, int pLeben, String pKlasse, double pGewicht, double pAusweichen, int x, int y)
+    protected double gewicht;    
+    protected double verfehlen;
+    public menschen(fernkampf pAktuelleWaffe1, nahkampf pAktuelleWaffe2, faehigkeiten pFaehigkeit, int pLeben, String pKlasse, double pGewicht, double pAusweichen, double pVerfehlen, int x, int y)
     {
         super(pKlasse, pLeben, pAusweichen, x, y);
-        gewicht = pGewicht;
+        gewicht = pGewicht;        
         aktuelleWaffe1 = pAktuelleWaffe1;
         aktuelleWaffe2 = pAktuelleWaffe2;
         aktuelleFaehigkeit = pFaehigkeit;
+        verfehlen = pVerfehlen;
     }
     public void useCommand(String input) {
         if (input.equals("gehe")) {
@@ -23,6 +25,8 @@ public class menschen extends lebewesen
                  this.fliehen();  
         } else if (input.equals("kaempfen")) {
                  this.kaempfen();  
+        } else if (input.equals("weglegen")) {
+                 this.weglegen();
         } else if (input.equals("revolver")) {
                  this.waffe("revolver");
         } else if (input.equals("ak47")) {
@@ -33,6 +37,8 @@ public class menschen extends lebewesen
                  this.waffe("schrotflinte");
         } else if (input.equals("raketenwerfer")) {
                  this.waffe("raketenwerfer");
+        }else if (input.equals("granatwerfer")) {
+                 this.waffe("granatwerfer");
         }else if (input.equals("granate")) {
                  this.waffe("granate");
         } else if (input.equals("axt")) {
@@ -45,9 +51,11 @@ public class menschen extends lebewesen
                  this.waffe("machete");
         } else if (input.equals("mistgabel")) {
                  this.waffe("mistgabel");
-        } else if (input.equals("fahre")) {
-                 this.fahre();
+        } else if (input.equals("inventar")) {
+                 this.inventar();
         }
-        monster.move();
+        else if (input.equals("tauschen")) {
+                 this.tauschen();
+        }
     }
 }

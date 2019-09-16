@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=menschen
-comment1.params=pAktuelleWaffe1\ pAktuelleWaffe2\ pFaehigkeit\ pLeben\ pKlasse\ pGewicht\ pAusweichen\ x\ y
-comment1.target=menschen(fernkampf,\ nahkampf,\ faehigkeiten,\ int,\ java.lang.String,\ double,\ double,\ int,\ int)
+comment1.params=pAktuelleWaffe1\ pAktuelleWaffe2\ pFaehigkeit\ pLeben\ pKlasse\ pGewicht\ pAusweichen\ pVerfehlen\ x\ y
+comment1.target=menschen(fernkampf,\ nahkampf,\ faehigkeiten,\ int,\ java.lang.String,\ double,\ double,\ double,\ int,\ int)
 comment2.params=input
 comment2.target=void\ useCommand(java.lang.String)
 numComments=3
