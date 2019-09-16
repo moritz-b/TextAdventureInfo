@@ -20,7 +20,7 @@
 public class Command
 {
     public String commandWord;
-    public static String secondWord;
+    private static String secondWord;
 
     /**
      * Create a command object. First and second word must be supplied, but
@@ -49,7 +49,7 @@ public class Command
      * @return The second word of this command. Returns null if there was no
      * second word.
      */
-    public String getSecondWord()
+    public static String getSecondWord()
     {
         return secondWord;
     }

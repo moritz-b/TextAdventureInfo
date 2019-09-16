@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=fahrzeuge
+comment1.params=pName\ pFuel
+comment1.target=fahrzeuge(java.lang.String,\ int)
+comment2.params=xNeu\ yNeu
+comment2.target=void\ fahre(int,\ int)
+comment3.params=
+comment3.target=boolean\ autoSchluesselVorhanden()
+comment4.params=
+comment4.target=void\ kaufeAuto()
+numComments=5

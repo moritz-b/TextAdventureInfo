@@ -12,11 +12,11 @@
 public class CommandWords
 {
     // a constant array that holds all valid command words
-    private static final String[] validCommands = {
-       "tauschen", "inventar", "weglegen", "axt", "katana", "machete", "dolch",
-       "mistgabel", "revolver", "ak47", "uzi", "schrotflinte", "granatwerfer",
-       "raketenwerfer", "granate", "gehe", "kaempfen", "fliehen", "map", "position",
-       "dreheRechts", "dreheLinks", "Bauer", "Soldat", "Arzt", "spielzeit", "beenden"
+    private final String[] validCommands = {
+        "axt", "katana", "machete", "dolch", "mistgabel", "revolver", "ak47",
+        "uzi", "schrotflinte", "granatwerfer", "raketenwerfer", "granate",
+        "gehe", "kaempfen", "fliehen", "map", "position", "dreheRechts",
+        "fahre", "dreheLinks", "Bauer", "Soldat", "Arzt"
     };
     
 
@@ -26,6 +26,15 @@ public class CommandWords
     public CommandWords()
     {
         // nothing to do at the moment...
+    }
+    
+    public static boolean isNumeric(String aString) {
+        try {
+            int z = Integer.parseInt(aString);
+        } catch (NumberFormatException | NullPointerException nfe) {
+            return false;
+        }
+        return true;
     }
 
     /**
@@ -39,8 +48,9 @@ public class CommandWords
             if(validCommands[i].equals(aString))
                 return true;
         }
+        isNumeric(aString);
         // if we get here, the string was not found in the commands
-        return false;        
+        return false;
     }
     
     public String showCommandWords()
