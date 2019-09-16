@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=fernkampf
-comment1.params=pName\ pSchaden\ pKritSchaden\ pKritChance\ pGewicht\ pHaltbarkeit
-comment1.target=fernkampf(java.lang.String,\ int,\ int,\ int,\ double,\ int)
+comment1.params=pName\ pSchaden\ pKritSchaden\ pKritChance\ pGewicht\ pHaltbarkeit\ x\ y
+comment1.target=fernkampf(java.lang.String,\ int,\ int,\ int,\ double,\ int,\ int,\ int)
 comment2.params=
 comment2.target=void\ waffen()
 numComments=3
