@@ -1,4 +1,4 @@
-﻿------------------------------------------------------------------------
+------------------------------------------------------------------------
 Dies ist die README-Datei des Projekts. Hier sollten Sie Ihr Projekt
 beschreiben.
 Erzählen Sie dem Leser (jemand, der nichts über dieses Projekt weiss),
@@ -12,5 +12,3 @@ VERSION oder DATUM:
 WIE IST DAS PROJEKT ZU STARTEN:
 AUTOR(EN):
 BENUTZERHINWEISE:
-
-lol

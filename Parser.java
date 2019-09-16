@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Parser 
 {
-    private static CommandWords commands;  // holds all valid command words
-    private static Scanner reader;         // source of command input
+    private CommandWords commands;  // holds all valid command words
+    private Scanner reader;         // source of command input
 
     /**
      * Create a parser to read from the terminal window.
@@ -17,7 +17,7 @@ public class Parser
     /**
      * @return The next command from the user.
      */
-    public static Command getCommand() 
+    public Command getCommand() 
     {
         String inputLine;   // will hold the full input line
         String word1 = null;
@@ -39,17 +39,15 @@ public class Parser
 
         // Now check whether this word is known. If so, create a command
         // with it. If not, create a "null" command (for unknown command).
-        
-            if(commands.isCommand(word1)) {
-                return new Command(word1, word2);
-            }
-            else {
-                return new Command(null, word2); 
-            }
-        
+        if(commands.isCommand(word1)) {
+            return new Command(word1, word2);
+        }
+        else {
+            return new Command(null, word2); 
+        }
     }
     
-    public static CommandWords getCommandWords()
+    public CommandWords getCommandWords()
     {
        return commands; 
     }
