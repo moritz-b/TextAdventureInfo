@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=waffen
+comment1.params=pName\ pSchaden\ pKritschaden\ pKritChance\ pGewicht\ pHaltbarkeit\ x\ y\ pSichtB\ pArt
+comment1.target=waffen(java.lang.String,\ int,\ int,\ int,\ double,\ int,\ int,\ int,\ boolean,\ java.lang.String)
+numComments=2

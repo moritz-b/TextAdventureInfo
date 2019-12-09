@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=gegenstand
+comment1.params=pX\ pY\ pSichtB
+comment1.target=gegenstand(int,\ int,\ boolean)
+comment2.params=x\ y
+comment2.target=void\ setPos(int,\ int)
+numComments=3

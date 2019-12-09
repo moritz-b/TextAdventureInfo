@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=fernkampf
+comment1.params=pName\ pSchaden\ pKritSchaden\ pKritChance\ pGewicht\ pHaltbarkeit\ x\ y\ pSichtB
+comment1.target=fernkampf(java.lang.String,\ int,\ int,\ int,\ double,\ int,\ int,\ int,\ boolean)
+numComments=2

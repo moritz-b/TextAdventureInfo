@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Schluessel
+comment1.params=pPosX\ pPosY\ pSichtB\ pBezug
+comment1.target=Schluessel(int,\ int,\ boolean,\ int)
+comment2.params=
+comment2.target=int\ getBezug()
+comment3.params=pBezug
+comment3.target=void\ setBezug(int)
+comment4.params=
+comment4.target=void\ aufhe2()
+comment5.params=
+comment5.target=int\ getAktuellenSchl()
+numComments=6

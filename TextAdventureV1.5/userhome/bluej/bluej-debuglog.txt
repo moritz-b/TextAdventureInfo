@@ -1,0 +1,117 @@
+BlueJ run started: Sat Nov 30 22:51:17 CET 2019
+BlueJ version 4.1.3
+Java version 1.8.0_181
+Virtual machine: Java HotSpot(TM) Client VM 25.181-b13 (Oracle Corporation)
+Running on: Windows 10 10.0 (x86)
+Java Home: C:\Users\Andrea\Desktop\examples\jdk\jre
+----
+Detected language "german" based on iso639-2 code "deu"
+Opening project: G:\Textadventure0.1.2
+1575150680798: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+Nov 30, 2019 10:52:58 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+1575150822768: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1575150889973: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1575151160788: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1575151236270: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1575151459418: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1575151542466: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1575151609418: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-box-border' while resolving lookups for '-fx-background-color' from rule '*.text-input' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-control-inner-background' while resolving lookups for '-fx-highlight-fill' from rule '*.text-input' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-inner-color' while resolving lookups for '-fx-text-fill' from rule '*.text-input' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-control-inner-background' while resolving lookups for '-fx-prompt-text-fill' from rule '*.text-input' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-base-color' while resolving lookups for '-fx-text-fill' from rule '*.button' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-shadow-highlight-color' while resolving lookups for '-fx-background-color' from rule '*.button' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-base-color' while resolving lookups for '-fx-text-fill' from rule '*.button' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-base-color' while resolving lookups for '-fx-text-fill' from rule '*.button' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.check-box' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.check-box' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-shadow-highlight-color' while resolving lookups for '-fx-background-color' from rule '*.check-box>*.box' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-box-border' while resolving lookups for '-fx-background-color' from rule '*.text-input' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-control-inner-background' while resolving lookups for '-fx-highlight-fill' from rule '*.text-input' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-inner-color' while resolving lookups for '-fx-text-fill' from rule '*.text-input' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-control-inner-background' while resolving lookups for '-fx-prompt-text-fill' from rule '*.text-input' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-base-color' while resolving lookups for '-fx-text-fill' from rule '*.button' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-base-color' while resolving lookups for '-fx-text-fill' from rule '*.button' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-base' while resolving lookups for '-fx-background-color' from rule '*.moe-background' in stylesheet file:/C:/Users/Andrea/Desktop/examples/lib/stylesheets/moe.css
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-base-color' while resolving lookups for '-fx-text-fill' from rule '*.tab-pane>*.tab-header-area>*.headers-region>*.tab>*.tab-container>*.tab-label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-base-color' while resolving lookups for '-fx-text-fill' from rule '*.tab-pane>*.tab-header-area>*.headers-region>*.tab>*.tab-container>*.tab-label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-text-background-color' while resolving lookups for '-fx-text-fill' from rule '*.label' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+Nov 30, 2019 11:08:44 PM javafx.scene.CssStyleHelper calculateValue
+WARNUNG: Could not resolve '-fx-mark-color' while resolving lookups for '-fx-background-color' from rule '*.tab-pane>*.tab-header-area>*.headers-region>*.tab>*.tab-container>*.tab-close-button' in stylesheet jar:file:/C:/Users/Andrea/Desktop/examples/jdk/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+1575151970024: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+1575152272884: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
